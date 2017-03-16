@@ -6,4 +6,4 @@ Test text
 
 New line in README.md
 
-commit +1
+commit +2
