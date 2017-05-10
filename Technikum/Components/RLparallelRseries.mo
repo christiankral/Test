@@ -28,5 +28,45 @@ equation
     annotation (Line(points={{-20,26},{-20,0},{24,0}}, color={0,0,255}));
   connect(resistor1.n, pin_n)
     annotation (Line(points={{44,0},{100,0},{100,0}}, color={0,0,255}));
-  annotation (Icon(coordinateSystem(preserveAspectRatio=false)), Diagram(coordinateSystem(preserveAspectRatio=false)));
+  annotation (Icon(coordinateSystem(preserveAspectRatio=false), graphics={
+        Rectangle(
+          extent={{-58,-22},{-10,-40}},
+          lineColor={28,108,200},
+          fillColor={0,0,255},
+          fillPattern=FillPattern.Solid),
+        Rectangle(
+          extent={{-42,48},{-38,8}},
+          lineColor={28,108,200},
+          fillColor={0,0,255},
+          fillPattern=FillPattern.Solid),
+        Rectangle(
+          extent={{-30,48},{-26,8}},
+          lineColor={28,108,200},
+          fillColor={0,0,255},
+          fillPattern=FillPattern.Solid),
+        Rectangle(
+          extent={{22,10},{70,-8}},
+          lineColor={28,108,200},
+          fillColor={0,0,255},
+          fillPattern=FillPattern.Solid),
+        Line(
+          points={{-98,0},{-70,0},{-70,28},{-42,28}},
+          color={28,108,200},
+          thickness=0.5),
+        Line(
+          points={{-70,0},{-70,-32},{-58,-32}},
+          color={28,108,200},
+          thickness=0.5),
+        Line(
+          points={{-26,28},{2,28},{2,0},{22,0}},
+          color={28,108,200},
+          thickness=0.5),
+        Line(
+          points={{2,0},{2,-32},{-10,-32}},
+          color={28,108,200},
+          thickness=0.5),
+        Line(
+          points={{70,0},{90,0}},
+          color={28,108,200},
+          thickness=0.5)}),                                      Diagram(coordinateSystem(preserveAspectRatio=false)));
 end RLparallelRseries;
