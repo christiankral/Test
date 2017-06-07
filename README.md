@@ -1,6 +1,6 @@
 # Technikum
 
-General 
+Exercise implementation
 
 # License
 
