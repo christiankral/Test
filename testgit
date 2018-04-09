@@ -1,0 +1,33 @@
+#!/bin/bash
+#├── Sub1
+#│   └── package.mo
+#│   └── package.order
+#│   └── Examples
+#│       └── package.bak-mo
+#│       └── otherfile.mo
+#│       └── package.order
+#├── Sub2
+#│   └── package.mo
+#│   └── package.order
+#│   └── Demo
+#│       └── otherfile.mo
+#│       └── package.mo
+#│       └── package.order
+
+mkdir -p /git/christiankral/Test/Sub1/Examples
+touch /git/christiankral/Test/Sub1/package.mo
+touch /git/christiankral/Test/Sub1/package.order
+touch /git/christiankral/Test/Sub1/Examples/package.mo
+touch /git/christiankral/Test/Sub1/Examples/package.order
+touch /git/christiankral/Test/Sub1/Examples/otherfile.mo
+mkdir -p /git/christiankral/Test/Sub2/Demo
+touch /git/christiankral/Test/Sub2/package.mo
+touch /git/christiankral/Test/Sub2/package.order
+touch /git/christiankral/Test/Sub2/Demo/package.mo
+touch /git/christiankral/Test/Sub2/Demo/package.order
+touch /git/christiankral/Test/Sub2/Demo/otherfile.mo
+
+exit 1
+
+mv /git/christiankral/Test/Sub1/Examples/package.mo /git/christiankral/Test/Sub1/Examples/package.bak-mo
+echo "Deleted">/git/christiankral/Test/Sub1/package.order
