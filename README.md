@@ -6,5 +6,6 @@ Exercise implementation
 
 License information
 Add license information
+3rd license information
 
 # Author
