@@ -1,3 +1,5 @@
+1st master additional information
+
 # Technikum
 
 Exercise implementation
