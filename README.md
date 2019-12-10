@@ -16,4 +16,4 @@ Add license information
 
 # Author
 
-Ich
+Ich, sonst keiner
