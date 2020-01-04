@@ -1,7 +1,7 @@
 1st master additional information
 2nd information
 
-# Technikum
+# Technikum 3
 
 Exercise implementation
 New exercise line
