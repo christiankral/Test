@@ -17,3 +17,5 @@ Add license information
 # Author
 
 Ich, der Autor.
+
+New part of README
